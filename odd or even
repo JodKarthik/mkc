@@ -1,0 +1,8 @@
+echo "find given number id odd or even"
+read a
+if (($a % 2==0))
+then 
+echo"no is even"
+else
+echo "no is odd"
+fi
