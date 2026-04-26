@@ -1,0 +1,18 @@
+echo "Enter first numbers"
+read a
+
+echo "Enter second numbers"
+read b
+
+echo"before swaping"
+echo "a=$a"
+echo "b=$b"
+
+temp=$a
+$a=$b
+$b=$temp
+
+echo "after swaping:"
+echo "a=$a"
+echo "b=$b"
+
