@@ -1,0 +1,10 @@
+echo "Find the factorial of the given no"
+read a
+sum=1
+
+for (( i=1; i<=a; i++ ))
+do
+    sum=$((sum*i))
+done
+
+echo $sum
