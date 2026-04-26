@@ -1,0 +1,9 @@
+sudo apt-get install apache2
+localhost #go to firefox and then do this command
+netstat -a 1 more
+cd /var/www/html
+sudo nano index.html
+##After this we have to change the backgroung colour and some names in the paragraph##
+## Red:-#FF0000
+## Blue:-#0000FF
+## Pink:-#FFB6C1
