@@ -1,0 +1,8 @@
+echo "enter the  no for sorthing"
+read numbers
+
+echo "ascending order"
+echo "$numbers" | tr '' '\n | sort -n
+
+echo "decending order"
+echo "$numbers" | tr '' '\n | sort -nr
